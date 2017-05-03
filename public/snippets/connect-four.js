@@ -7,7 +7,6 @@ const numCols = 7;
 const numRows = 6;
 
 const placePiece = function(player, col, row) {
-  // your code here
 };
 
 placePiece('O', 2, 5);
