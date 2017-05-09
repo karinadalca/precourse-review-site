@@ -3,10 +3,13 @@ const board = {
   '(1,5)': 'O',
   '(1,4)': 'X',
 };
+
 const numCols = 7;
 const numRows = 6;
 
 const placePiece = function(player, col, row) {
+  //let position = "("+col+", "+row+")";
+  //board[position] = player;
   document.getElementById("connect-four").rows[row].cells[col].textContent = player;
 };
 
